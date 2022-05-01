@@ -4,7 +4,13 @@
     <string name="automatic">Automatic identify verification which enables you to verify your identity</string>
     <string name="login">Login</string>
     <string name="login_statement">Login to your account</string>
+    <string name="login_forget_account">Don\'t have a account?</string>
+    <string name="email">Email</string>
+    <string name="email_hint">123@email.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">......</string>
     <string name="signUp">Sign Up</string>
     <string name="todo">TODO</string>
     <string name="todo_login">TODO-LOGIN</string>
+    <string name="sign_up">Sign up</string>
 </resources>
