@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="welcome">Welcome</string>
+    <string name="automatic">Automatic identify verification which enables you to verify your identity</string>
+    <string name="login">Login</string>
+    <string name="login_statement">Login to your account</string>
+    <string name="signUp">Sign Up</string>
+    <string name="todo">TODO</string>
+    <string name="todo_login">TODO-LOGIN</string>
+</resources>
