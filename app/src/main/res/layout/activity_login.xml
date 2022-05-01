@@ -7,6 +7,19 @@
     tools:context=".Login_Activity">
 
     <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/login"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,6 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -105,7 +119,6 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="24dp"
-            android:layout_marginBottom="32dp"
             android:background="@drawable/btn_bg">
 
             <Button
@@ -134,6 +147,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
             android:orientation="horizontal">
 
             <TextView
@@ -152,10 +166,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingStart="4dp"
+                android:paddingEnd="4dp"
                 android:text="@string/sign_up"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

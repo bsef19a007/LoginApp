@@ -13,4 +13,5 @@
     <string name="todo">TODO</string>
     <string name="todo_login">TODO-LOGIN</string>
     <string name="sign_up">Sign up</string>
+    <string name="todo_bg">TODO_bg</string>
 </resources>
